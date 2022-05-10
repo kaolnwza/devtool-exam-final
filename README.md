@@ -2,6 +2,38 @@
 
 ![Screenshot (1668)](https://user-images.githubusercontent.com/1614727/148376702-f0eac382-bebb-4c48-8f20-ece8adcdd27c.png)
 
+Create Vaccine Order API
+
+Order Vaccine
+api: /register
+
+json exam:
+{
+    "prefix_name": "นาย",
+    "firstname": "name",
+    "lastname": "last",
+    "gender_type": "ชาย",
+    "dob": "0001-01-01T00:00:00Z",
+    "identity_card_type": "identity_id",
+    "identity_id": "12345",
+    "passport": "123546",
+    "national": "ลาว",
+    "house_id": "123",
+    "village_no": "5",
+    "village_name": "latkrabang",
+    "room": "e00",
+    "avenue": "5",
+    "alley": "10",
+    "line_id": "anonymious",
+    "email": "abc@gmail.com",
+    "vaccine_id": 2,
+    "date": "0001-01-01T00:00:00Z",
+    "time_start": "09.00",
+    "time_end": "10.00"
+}
+
+Get Vaccine Status Filter By Age
+api: /vaccine/:year (/vaccine/2000)
 
 Database design
 ![Screenshot (27)](https://user-images.githubusercontent.com/1614727/167590422-e756974e-bbc5-43d7-b650-cbf0f8ae3ec9.png)
